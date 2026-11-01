@@ -1,0 +1,4 @@
+# Himno de la alegría (Beethoven) — melodía, 1 paso = corchea
+# Probar: python3 scripts/cancion_a_redstone.py assets/himno-de-la-alegria.txt --ticks-por-paso 2
+mi4:2 mi4:2 fa4:2 sol4:2 | sol4:2 fa4:2 mi4:2 re4:2 | do4:2 do4:2 re4:2 mi4:2 | mi4:3 re4:1 re4:4
+mi4:2 mi4:2 fa4:2 sol4:2 | sol4:2 fa4:2 mi4:2 re4:2 | do4:2 do4:2 re4:2 mi4:2 | re4:3 do4:1 do4:4
