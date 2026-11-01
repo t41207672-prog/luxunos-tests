@@ -86,6 +86,8 @@ chromium + firefox + webkit. It does not work in this container (see Gotchas).
   `smoke` project with `testDir` set to this directory.
 - **The base config's only reporter is `html`**, which prints just the failure summary.
   The container config adds `list` so each test and its error show in the terminal.
+- **Every `playwright test` run empties `test-results/`**, including runs of the other project.
+  Copy `smoke.png` somewhere else before running the suite again.
 - **`--transponer-auto` tries +12, -12, +24, -24...**, so `C9` lands on `Do7` (Campana),
   not `Do8`.
 
